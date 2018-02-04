@@ -14,7 +14,9 @@ It's simple, you can read through the included index.php file. which is a runnin
 of the verification system used by this library.
 
 You can change drawing options of the canvas and other configuration like this:
+
 ``php
+<?php
 $captcha = new Captchay ( 305, 60 ); // width x height
 $captcha->setConfig ( 'canvas', array (
     'border-style' => 'solid',
