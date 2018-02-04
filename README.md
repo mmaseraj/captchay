@@ -15,7 +15,7 @@ of the verification system used by this library.
 
 You can change drawing options of the canvas and other configuration like this:
 
-``php
+```php
 <?php
 $captcha = new Captchay ( 305, 60 ); // width x height
 $captcha->setConfig ( 'canvas', array (
@@ -29,7 +29,7 @@ $captcha->setConfig ( 'texture', array (
 $captcha->setConfig ( 'font', array (
     'size'    => 18,
 ) );
-``
+```
 Read through the `class.captchay.php` file and it should be fairly easy to know how to
 modify whatever options you like.
 
