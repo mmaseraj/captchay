@@ -280,11 +280,12 @@ class Captchay {
   }
   .capt-wrapper input[type=text]{
     font: inherit;
-    width: 100%; 
     background: #fff;
     border: 1px solid #ccc;
-    padding: 5 10px;
+    padding: 5px 10px;
     color: #515151;
+    width: 100%;
+    box-sizing: border-box;
   }
   .capt-wrapper .capt-desc label{
     font-size: 12px;
