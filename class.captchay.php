@@ -248,7 +248,6 @@ class Captchay {
 
   public function output () {
     return '<style>
-  @import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
   .capt-wrapper{
     display: inline-block;
     font-family: "Droid Arabic Kufi";
@@ -281,14 +280,11 @@ class Captchay {
   }
   .capt-wrapper input[type=text]{
     font: inherit;
-    width: 100%;
+    width: 100%; 
     background: #fff;
-    border: 1px solid #515151;
-    padding:0 10px;
+    border: 1px solid #ccc;
+    padding: 5 10px;
     color: #515151;
-  }
-  .capt-wrapper img{
-    margin-bottom: 10px;
   }
   .capt-wrapper .capt-desc label{
     font-size: 12px;
@@ -303,7 +299,7 @@ class Captchay {
   jQuery( function () {
     jQuery( \'[href="#refresh"]\' ).click( function ( e ) {
       var round = Math.round( Math.random() * 100000 );
-      var imgUrl = jQuery( \'.capt-wrapper img\' ).attr( \'src\', \'?captchay=\' + round );
+      var imgUrl = jQuery( \'#captchay-wrapper img\' ).attr( \'src\', \'?captchay=\' + round );
       e.preventDefault();
     } );
   } );
@@ -311,10 +307,12 @@ class Captchay {
 <div class="capt-wrapper">
   <div class="capt-desc">
     <div class="capt-detail">
-      <a href="#refresh"><i class="fa fa-refresh"></i></a><a href="http://github.com/mmaseraj" target="_blank" rel="nofollow"><i class="fa fa-info-circle"></i></a>
+      <a href="#refresh"><img style="width: 12px; height: auto" src="assets/redo.svg" /></i></a><a href="http://github.com/mmaseraj" target="_blank" rel="nofollow">
+		<img style="width: 12px; height: auto" src="assets/info-circle.svg" />
+	  </a>
     </div>
   </div>
-  ' . $this->_created[ 'img' ] . '
+  <div id="captchay-wrapper">' . $this->_created[ 'img' ] . '</div>
   <div class="capt-desc">
     <input type="text" name="captchay_input" placeholder="أدخل الكلمتين التي داخل الصورة" id="captchay_input" />
   </div>
