@@ -4,7 +4,7 @@ a CAPTCHA that supports Arabic, Urdu and Persian languages
 About
 ======
 I wrote this PHP class because I was frustrated while using other RECAPCHEs because 
-they only display English letters and words. I developed it three years ago, and while I was 
+they only display latin letters and words. I developed it three years ago, and while I was 
 scrolling through my files this morning I realized this wasn't really published anywhere.
 So here it is, I uploaded it hoping somebody will use it.
 
