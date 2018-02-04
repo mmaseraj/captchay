@@ -31,7 +31,7 @@ $captcha->setConfig ( 'font', array (
 ) );
 ```
 Read through the `class.captchay.php` file and it should be fairly easy to know how to
-modify whatever options you like.
+modify whatever option you like.
 
 
 
