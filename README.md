@@ -3,17 +3,17 @@ a CAPTCHA that supports Arabic, Urdu and Persian languages.
 
 About
 ======
-I wrote this PHP class because I was frustrated while using other RECAPCHEs because 
-they only display latin letters and words. I developed it three years ago, and while I was 
-scrolling through my files this morning I realized this wasn't really published anywhere.
-So here it is, I uploaded it hoping somebody will use it.
+I wrote this PHP class because I was frustrated while using other CAPTCHAs. 
+They only display Latin characters and words. I developed it three years ago, and while I was 
+scrolling down my files this morning I realized that this has not been published anywhere.
+So here it is, I uploaded it hoping that somebody will use it.
 
 How to use it?
 =======
-It's simple, you can read through the included index.php file. which is a running example
+It's simple. You can read through the included `index.php` file which is a running example
 of the verification system used by this library.
 
-You can change drawing options of the canvas and other configuration like this:
+You can change drawing options of the canvas and other configurations like this:
 
 ```php
 <?php
@@ -37,9 +37,8 @@ modify whatever option you like.
 
 نبذة
 ======
-قمت بكتابة هذا الكلاس بسبب الأحباط اللي وصلت إليه من استخدام مكتبات تقدم نفس الخدمة، لكن جميع المكتبات
-التي قمت بتجربتها لم تكن تتوافق مع المشروع التي كنت أقوم به، هذا كان قبل 3 سنوات تقريبًا. هذه المكتبة
-تعتبر الأولى من ناحية دعمها للغة العربية، الأردو، والفارسية وإظهار كلمات معينة للتحققات.
+قمت بكتابة هذا الكلاس بسبب الإحباط الذي وصلت إليه عند استخدام مكتبات تقدم نفس الخدمة، لكن جميعها لم تكن متوافقة مع المشروع الذي كنت أنفذه، هذا كان قبل 3 سنوات تقريبًا. هذه المكتبة
+تعتبر الأولى من ناحية دعمها للغة العربية، والأردو، والفارسية وإظهار كلمات معينة للتحققات.
 
 License
 =======
